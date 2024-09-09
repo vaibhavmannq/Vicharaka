@@ -16,6 +16,7 @@ const SingleBookPage = async ({ params }: { params: { bookId: string } }) => {
             throw new Error('Error fetching book');
         }
         book = await response.json();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
         throw new Error('Error fetching book');
     }
