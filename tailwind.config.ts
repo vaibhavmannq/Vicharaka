@@ -28,6 +28,9 @@ const config: Config = {
                     950: '#381712',
                 },
             },
+            width: {
+                '3/4': '95%',
+            }
         },
     },
     plugins: [],
